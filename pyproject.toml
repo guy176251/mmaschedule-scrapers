@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mmasched-scrapers"
+version = "0.1.0"
+description = ""
+authors = ["long <longnguyen176251@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cssselect = "^1.2.0"
+lxml = "^4.9.2"
+typing-extensions = "^4.12.2"
+rich = "^13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+typeCheckingMode = "basic"
