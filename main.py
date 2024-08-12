@@ -13,3 +13,5 @@ for scraper in scrapers:
     data: list[Event] = []
     scraper(data)
     print(data)
+
+    
