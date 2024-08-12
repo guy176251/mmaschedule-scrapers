@@ -1,5 +1,5 @@
 from event import Event
 
 
-def scrape_rizen(data: Event) -> None:
+def scrape_rizen(data: list[Event]) -> None:
     ...
